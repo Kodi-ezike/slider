@@ -1,0 +1,31 @@
+#main-container{
+    display: flex;
+}
+#container{
+    margin: 10px;
+    text-align: center;
+}
+#large{
+    background: transparent;
+    width: 170px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+#small{
+    width: 150px;
+    height: 150px; 
+}
+#small-container{
+    display: none;
+    width: 300px;
+    height: auto;
+    border: 1px solid blue;
+    text-align: center;
+    padding: 1rem;
+}
+@media screen and (max-width: 600px){
+    #small-container{
+        width: 250px;
+    }
+}
